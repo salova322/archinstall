@@ -15,11 +15,11 @@ pacstrap /mnt base linux linux-firmware git nano
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp -r archinstall/chroot.sh /mnt 
+cp archinstall/chroot.sh /mnt 
 
-cp -r archinstall/yay.sh /mnt 
+cp archinstall/user.sh /mnt 
 
-chmod 777 /mnt/chroot.sh /mnt/yay.sh
+chmod 777 /mnt/chroot.sh /mnt/user.sh
 
 arch-chroot /mnt
 
