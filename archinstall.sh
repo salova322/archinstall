@@ -7,7 +7,7 @@ mount /dev/sda2 /mnt
 mkdir -p /mnt/boot
 mount /dev/sda1 /mnt/boot
 
-pacstarp /mnt base linux linux-firmware  
+pacstrarp /mnt base linux linux-firmware  
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
