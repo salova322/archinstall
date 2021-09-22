@@ -33,4 +33,9 @@ useradd -m -G wheel salova
 passwd salova 
 EDITOR=nano visudo
 
+cd /opt
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
 exit
