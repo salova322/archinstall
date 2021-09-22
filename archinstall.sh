@@ -17,7 +17,9 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 cp -r archinstall/chroot.sh /mnt 
 
-chmod 777 /mnt/chroot.sh
+cp -r archinstall/yay.sh /mnt 
+
+chmod 777 /mnt/chroot.sh /mnt/yay.sh
 
 arch-chroot /mnt
 
