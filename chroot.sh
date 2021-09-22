@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 fallocate -l 2GB /swapfile
 chmod 600 /swapfile
