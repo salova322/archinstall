@@ -24,7 +24,7 @@ pacman -S grub networkmanager nano file-roller zip unzip network-manager-applet 
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg 
 
-pacman -S xf86-video-intel xorg xfce4 xfce4-goodies lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs
+pacman -S xf86-video-intel xorg xfce4 xfce4-goodies lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs htop neofetch
 
 systemctl enable lightdm
 systemctl enable NetworkManager
