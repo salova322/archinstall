@@ -15,7 +15,7 @@ echo 'LANG=en_US.UTF-8' >> /etc/locale.conf
 
 echo 'thinkpad' >> /etc/hostname
 
-echo '127.0.0.1   localhost \n::1         localhost \n127.0.1.1   thinkpad.localdomain    thinkpad' >> /etc/hosts
+echo 127.0.0.1   localhost$'\n'::1         localhost$'\n'127.0.1.1   thinkpad.localdomain    thinkpad >> /etc/hosts
 
 passwd
 
