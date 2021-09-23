@@ -19,7 +19,7 @@ echo 127.0.0.1   localhost$'\n'::1         localhost$'\n'127.0.1.1   thinkpad.lo
 
 passwd
 
-pacman -S grub networkmanager nano file-roller zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
+pacman -S grub networkmanager nano file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
 
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg 
