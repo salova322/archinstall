@@ -26,7 +26,7 @@ pacman -S grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg 
 
-pacman -S xf86-video-intel xorg xfce4 xfce4-goodies lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs htop neofetch pass networkmanager xclip xsel galculator file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
+pacman -S xf86-video-intel xorg xfce4 xfce4-goodies lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs htop neofetch pass networkmanager xclip xsel galculator bash-completion file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
 
 systemctl enable lightdm
 systemctl enable NetworkManager
