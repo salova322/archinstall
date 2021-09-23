@@ -9,7 +9,7 @@ echo '/swapfile none swap 0 0' >> /etc/fstab
 ln -sf /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime
 hwclock --sysohc
 
-nano /etc/locale.gen
+sed -i '177s/.//' /etc/locale.gen
 locale-gen
 echo 'LANG=en_US.UTF-8' >> /etc/locale.conf
 
@@ -35,5 +35,3 @@ useradd -m -G wheel salova
 echo $'\n' 'Enter password for salova' $'\n' 
 passwd salova 
 EDITOR=nano visudo
-
-exit
