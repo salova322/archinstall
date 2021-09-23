@@ -17,6 +17,8 @@ echo 'thinkpad' >> /etc/hostname
 
 echo 127.0.0.1   localhost$'\n'::1         localhost$'\n'127.0.1.1   thinkpad.localdomain    thinkpad >> /etc/hosts
 
+echo $'\n' 'Enter password for root' $'\n' 
+
 passwd
 
 pacman -S grub networkmanager xclip xsel file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
@@ -30,6 +32,7 @@ systemctl enable lightdm
 systemctl enable NetworkManager
 
 useradd -m -G wheel salova
+echo $'\n' 'Enter password for salova' $'\n' 
 passwd salova 
 EDITOR=nano visudo
 
