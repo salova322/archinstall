@@ -21,7 +21,7 @@ echo $'\n' 'Enter password for root' $'\n'
 
 passwd
 
-pacman -S grub networkmanager xclip xsel file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
+pacman -S grub networkmanager xclip xsel galculator file-roller p7zip zip unzip network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
 
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg 
