@@ -5,4 +5,7 @@ mv yay .yay
 cd .yay
 makepkg -si
 
-yay -S librewolf-bin
+yay -S librewolf-bin passff-host-librewolf-git
+
+gpg --list-secret-keys
+#pass init  /FOOTPRINT/
