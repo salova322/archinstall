@@ -34,4 +34,4 @@ systemctl enable NetworkManager
 useradd -m -G wheel salova
 echo $'\n' 'Enter password for salova' $'\n' 
 passwd salova 
-sed -i '75s/.//' /etc/sudoers
+sed -i '82s/.//' /etc/sudoers
