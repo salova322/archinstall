@@ -26,7 +26,7 @@ pacman -S grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg 
 
-pacman -S xf86-video-intel xorg-fonts-encodings xorg-iceauth xorg-server xorg-server-common xorg-setxkbmap xorg-xauth xorg-xinit xorg-xinput xorg-xkbcomp xorg-xkill xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset xorgproto libxfce4ui libxfce4util xfce4-appfinder xfce4-battery-plugin xfce4-datetime-plugin xfce4-mount-plugin xfce4-netload-plugin xfce4-notifyd xfce4-panel xfce4-power-manager xfce4-pulseaudio-plugin xfce4-screensaver xfce4-screenshooter xfce4-session xfce4-settings xfce4-taskmanager xfce4-terminal xfce4-wavelan-plugin xfce4-weather-plugin xfce4-whiskermenu-plugin xfce4-xkb-plugin lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs xdg-utils htop neofetch pass networkmanager xclip xsel galculator bash-completion file-roller p7zip zip unzip nano git network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
+pacman -S xf86-video-intel xorg-fonts-encodings xorg-iceauth xorg-server xorg-server-common xorg-setxkbmap xorg-xauth xorg-xinit xorg-xinput xorg-xkbcomp xorg-xkill xorg-xmodmap xorg-xprop xorg-xrandr xorg-xrdb xorg-xset xorgproto xfce4 xfce4-goodies lightdm  lightdm-gtk-greeter lightdm-gtk-greeter-settings xdg-user-dirs xdg-utils htop neofetch pass networkmanager xclip xsel galculator bash-completion file-roller p7zip zip unzip nano git network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers pulseaudio pavucontrol alsa-utils
 
 systemctl enable lightdm
 systemctl enable NetworkManager
